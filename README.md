@@ -11,16 +11,13 @@ Panduan Menjalankan Aplikasi Backend Content Management Platform
    - git clone <URL_REPOSITORI_BACKEND>
    - cd backend
      
-4. Instalasi Dependensi
-   Setelah masuk ke folder backend, jalankan perintah berikut untuk menginstal semua dependensi yang diperlukan:
+4. Instalasi Dependensi, Setelah masuk ke folder backend, jalankan perintah berikut untuk menginstal semua dependensi yang diperlukan:
    - npm install
   
-5. Buat Database MySQL
-   Buat database baru dengan nama yang sesuai, misalnya content_management, menggunakan DBeaver atau melalui command line MySQL:
+5. Buat Database MySQL baru dengan nama yang sesuai, misalnya content_management, menggunakan DBeaver atau melalui command line MySQL:
    - CREATE DATABASE content_management;
      
-6. Konfigurasi File .env
-   Buat file .env di dalam folder backend dan tambahkan konfigurasi berikut:
+6. Konfigurasi File .env, Buat file .env di dalam folder backend dan tambahkan konfigurasi berikut:
    - DB_HOST=localhost
    - DB_USER=root
    - DB_PASSWORD=your_password
@@ -30,16 +27,16 @@ Panduan Menjalankan Aplikasi Backend Content Management Platform
    Gantilah your_password dengan kata sandi yang sesuai untuk user MySQL Anda dan your_gemini_api_key dengan key API yang Anda dapatkan dari Google AI.
    Untuk mendapatkan key API, tutorialnya bisa mengikuti link berikut : https://www.youtube.com/watch?v=6aj5a7qGcb4&ab_channel=AiDeveloper
 
-7. Inisialisasi Database
+7. Inisialisasi Database,
    Jalankan perintah berikut untuk inisialisasi tabel yang diperlukan dalam database:
    - npm run init-db
 
-8. Jalankan Server
+8. Jalankan Server,
    Setelah semua langkah di atas selesai, jalankan server dengan perintah berikut:
    - npm run dev / npm start
    Server akan berjalan di http://localhost:3000
 
-9. Pengujian API
+9. Pengujian API,
 Setelah server berjalan, Anda dapat menguji API dengan menggunakan aplikasi seperti Postman atau thunderclient. Berikut adalah beberapa endpoint yang dapat Anda coba:
 
 Endpoint: GET http://localhost:3000/api/cards
