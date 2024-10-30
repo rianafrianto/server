@@ -34,7 +34,7 @@ Panduan Menjalankan Aplikasi Backend Content Management Platform
 8. Jalankan Server,
    Setelah semua langkah di atas selesai, jalankan server dengan perintah berikut:
    - npm run dev / npm start
-   Server akan berjalan di http://localhost:3000
+   - Server akan berjalan di http://localhost:3000
 
 9. Pengujian API,
 Setelah server berjalan, Anda dapat menguji API dengan menggunakan aplikasi seperti Postman atau thunderclient. Berikut adalah beberapa endpoint yang dapat Anda coba:
