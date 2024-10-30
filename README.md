@@ -11,13 +11,13 @@ Panduan Menjalankan Aplikasi Backend Content Management Platform
    - git clone <URL_REPOSITORI_BACKEND>
    - cd backend
      
-4. Instalasi Dependensi, Setelah masuk ke folder backend, jalankan perintah berikut untuk menginstal semua dependensi yang diperlukan:
+4. Setelah masuk ke folder backend, jalankan perintah berikut untuk menginstal semua dependensi yang diperlukan:
    - npm install
   
 5. Buat Database MySQL baru dengan nama yang sesuai, misalnya content_management, menggunakan DBeaver atau melalui command line MySQL:
    - CREATE DATABASE content_management;
      
-6. Konfigurasi File .env, Buat file .env di dalam folder backend dan tambahkan konfigurasi berikut:
+6. Buat file .env di dalam folder backend dan tambahkan konfigurasi berikut:
    - DB_HOST=localhost
    - DB_USER=root
    - DB_PASSWORD=your_password
