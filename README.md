@@ -3,7 +3,7 @@ Panduan Menjalankan Aplikasi Backend Content Management Platform
 1. Prasyarat
     Sebelum memulai, pastikan Anda memiliki hal berikut:
    - Node.js(Minimal v18)
-   - MySQL: Anda memerlukan MySQL terinstal di sistem Anda. Jika Anda tidak memiliki MySQL anda bisa menggunakan DBeaver.
+   - MySQL: Anda memerlukan MySQL terinstal di sistem Anda. Jika Anda tidak memiliki MySQL Silahkan untuk download di situs resminya.
    - DBeaver atau alat pengelolaan database lainnya: Untuk mengelola database MySQL.
      
 2. Clone Repositori
